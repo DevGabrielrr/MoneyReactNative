@@ -2,6 +2,9 @@
 
 Aplicativo mobile de controle financeiro pessoal, construído com React Native utilizando Expo Router. Permite ao usuário registrar receitas e despesas, visualizar seu saldo, organizar suas finanças de forma prática e moderna.
 
+<img width="966" height="512" alt="AppMoney" src="https://github.com/user-attachments/assets/6448feae-4857-4fcf-b78c-12b965ed8244" />
+
+
 ## ✅ Funcionalidades
 
 Cadastro de entradas (receitas)
