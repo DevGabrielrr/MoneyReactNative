@@ -1,50 +1,114 @@
-# Welcome to your Expo app 👋
+# 💰 Money — App de Gerenciamento Financeiro
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile de controle financeiro pessoal, construído com React Native utilizando Expo Router. Permite ao usuário registrar receitas e despesas, visualizar seu saldo, organizar suas finanças de forma prática e moderna.
 
-## Get started
+## ✅ Funcionalidades
 
-1. Install dependencies
+Cadastro de entradas (receitas)
+
+Cadastro de saídas (despesas)
+
+Exibição do saldo total
+
+Armazenamento offline com AsyncStorage
+
+Navegação com abas
+
+Interface intuitiva com animações
+
+Seleção de datas e categorias
+
+## 🛠 Tecnologias
+
+- React Native 0.79.5
+
+- Expo SDK 53
+
+- Expo Router ~5.1.3
+
+- TypeScript ~5.8.3
+
+- React Navigation (com tabs e elementos nativos)
+
+- AsyncStorage para armazenamento local
+
+- DateTimePicker, Picker, WebView
+
+- Haptics, Blur, Fontes personalizadas
+
+- Reanimated e Gesture Handler para interações fluídas
+
+- Eslint para padronização do código
+
+### Principais
+
+- React Native
+- Expo
+- React Navigation
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/DevGabrielrr/MoneyReactNative.git
+   ```
+
+2. Atualize o projeto, Em seu terminal e na pasta do projeto
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Rodar o projeto
 
    ```bash
-   npx expo start
+    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Rodar em dispositivos específicos
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   npm run android   # Dispositivo Android
+   npm run ios       # Dispositivo iOS
+   npm run web       # Navegador
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+5. Resetar o projeto (limpar cache etc.)
 
-## Get a fresh project
+   ```bash
+   Copiar
+   Editar
+   ```
 
-When you're ready, run:
+   🧩 Estrutura de Pastas
 
-```bash
-npm run reset-project
-```
+   ```bash
+   copiar
+   Editar
+   src/
+   ├── app/ # Rotas usando expo-router
+   │ ├── index.tsx # Tela inicial
+   │ └── ... # Demais rotas/telas
+   ├── components/ # Componentes reutilizáveis
+   ├── contexts/ # Contextos globais (ex: Auth, Theme)
+   ├── services/ # APIs ou serviços externos
+   ├── storage/ # Funções de leitura/escrita em AsyncStorage
+   ├── styles/ # Temas e estilos globais
+   └── utils/ # Funções utilitárias
+   ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+   🔒 Dependências importantes
+Pacote Finalidade
+@react-native-async-storage Armazenamento local
+@react-navigation/native Navegação no app
+expo-blur, expo-haptics Efeitos visuais e feedback tátil
+react-native-reanimated Animações complexas
+react-native-gesture-handler Interações por gesto
+expo-font, expo-constants Fontes e variáveis do sistema
+@react-native-community/datetimepicker Seletor de data
 
-## Learn more
+   🛠️ Desenvolvedor
+Gabriel Rodrigues
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   💼 Projeto pessoal para estudo e prática com Expo Router + React Native
